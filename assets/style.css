@@ -69,8 +69,6 @@ body {
 
 .picture img {
 	width: 100%;
-	height: auto;
-
 }
 #about-me {
 	flex: 2
@@ -89,10 +87,6 @@ body {
 #about-me p {
 	width: 80%;
 	font-size: 14px;
-}
-
-#gallery {
-	/*	min-height: 100vh; */
 }
 .title{
 	text-align: center;
@@ -243,6 +237,16 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+footer {
+	background-color: #A8D5D8;
+	padding: 1em;
+	color: black;
+	text-align: center;
+}
+footer p a {
+	color:black;
 }
 
 @media all and (max-width: 1180px) {
